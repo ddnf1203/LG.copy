@@ -6,15 +6,188 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- 제이쿼리 자리 -->
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script>
     <!-- 외부 js 자리 // 웹폰트 // 폰트어썸링크 자리 시작 -->
-
+    <!-- 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Nanum+Brush+Script&family=Nanum+Myeongjo&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <!--로그인 아이콘  -->
+    <i class="fa-light fa-user"></i>
     <!-- 외부 js 자리 // 웹폰트 // 폰트어썸링크 자리 끝 -->
     <!-- 우리가 만든 css 와 js 링크하기 -->
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/script.js"></script>
 </head>
 <body>
+ 
+    <div class="header-wrap">
+        <div class="logo">
+            <img src="/img/logo-bestshop.svg" alt="LG로고">
+        </div>
+        <div class="utility">
+            <img src="/img/" alt="">
+            <a href="#">브랜드 소개</a>
+            <a href="#">B2B</a>
+            <a href="#">LGE.COM</a>
+        </div>
+        <div class="menu-wrap">
+            <ul class="menu-bar row">
+                <li class ="cell">
+                    <a href="#">매장안내</a>
+                    <div class="menu-layer">
+                      <div class="menu-inner">
+                        <h4>매장안내</h4>
+                        <ul>
+                          <li>
+                            <a href="#">매장찾기</a>
+                          </li>
+                          <li>
+                            <a href="#">신규 오픈 매장</a>
+                          </li>
+                          <li>
+                            <a href="#">아이폰 판매 매장</a>
+                          </li>
+                        </ul>
+                        <ul>
+                          <li>
+                            <a href="#">야간 무인 매장 안내</a>
+                          </li>
+                          <li>
+                            <a href="#">서비스 센터 찾기</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    
+                    <div class="bnr-box1">
+                      <div class="bnr-1"></div>
+                      <div class="bnr-2"></div>
+                    </div>
+                </li>
+                <li class ="cell">
+                    <a href="#">매장상담예약</a>
+                    <div class="menu-layer">
+                      <div class="menu-inner">
+                        <h4>매장상담예약</h4>
+                        <ul>
+                          <li>
+                            <a href="#">방문 상담 예약</a>
+                          </li>
+                          <li>
+                            <a href="#">화상 상담 예약</a>
+                          </li>
+                          <li>
+                            <a href="#">케어십 상담 예약</a>
+                          </li>
+                          <li>
+                            <a href="#">소모품 구매 예약</a>
+                          </li>
+                        </ul>
+                        <ul>
+                          <li>
+                            <a href="#">상담 예약 조회</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    
+                    <div class="bnr-box2">
+                      <div class="bnr-1"></div>
+                      <div class="bnr-2"></div>
+                    </div>
+                </li>
+                <li class ="cell">
+                    <a href="#">이벤트</a>
+                    <div class="menu-layer">
+                      <div class="menu-inner">
+                        <h4>이벤트</h4>
+                        <ul>
+                          <li>
+                            <a href="#">이벤트 전체 보기</a>
+                          </li>
+                          <li>
+                            <a href="#">혼수 이벤트</a>
+                          </li>
+                        </ul>
+                        <ul>
+                          <li>
+                            <a href="#">아파트 입주 이벤트</a>
+                            <ul>
+                              <li>
+                                <a href="혜택 안내"></a>
+                              </li>
+                              <li>
+                                <a href="행사 아파트 리스트"></a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="#">홍보영상</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    
+                    <div class="bnr-box3">
+                      <div class="bnr-1"></div>
+                      <div class="bnr-2"></div>
+                    </div>
+                </li>
+                <li class ="cell">
+                    <a href="#">매장안내</a>
+                    <div class="menu-layer">
+                      <div class="menu-inner">
+                        <h4>혜택안내</h4>
+                        <ul>
+                          <li>
+                            <a href="#">이달의 혜택</a>
+                          </li>
+                          <li>
+                            <a href="#">카드 혜택</a>
+                          </li>
+                          <li>
+                            <a href="#">멤버십 혜택</a>
+                          </li>
+                        </ul>
+                        <ul>
+                          <li>
+                            <a href="#">LG SIGNITURE 구매혜택</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                </li>
+                <li class ="cell">
+                    <a href="#">제품정보</a>
+                    <div class="menu-layer">
+                      <div class="menu-inner">
+                        <h4>제품정보</h4>
+                        <ul>
+                          <li>
+                            <a href="#">내게 맞는 제품 찾기</a>
+                          </li>
+                        </ul>
+                        <ul>
+                          <li>
+                            <a href="#">제품 카탈로그</a>
+                          </li>
+                          <li>
+                            <a href="#">제품 사용 설명서</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    
+                    <div class="bnr-box5">
+                      <div class="bnr-1"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
     
 </body>
 </html>
+
